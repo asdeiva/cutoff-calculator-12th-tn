@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>+2 Cuttoff calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Tamil Nadu 12th standard Cut Off Calculator</h1>
+      <div class="link">
+        <a href="./pureScience.html">For Pure Science</a>
+      </div>
+      <form class="form">
+        <div>
+          <label for="maths">Maths</label>
+          <input type="number" id="maths" name="maths" required />
+        </div>
+        <div>
+          <label for="biology">Biology</label>
+          <input type="number" id="biology" name="biology" required />
+        </div>
+        <div>
+          <label for="chemistry">Chemistry</label>
+          <input type="number" id="chemistry" name="chemistry" required />
+        </div>
+        <div>
+          <label for="physics">Physics</label>
+          <input type="number" id="physics" name="physics" required />
+        </div>
+        <div class="btn-div">
+          <input type="button" value="Calculate" id="calculate-btn" />
+          <input
+            type="button"
+            value="Reset"
+            id="reset-btn"
+            onclick="location.reload()"
+          />
+        </div>
+        <div class="output">
+          <p id="eng-cutoff"></p>
+          <p id="med-cutoff"></p>
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

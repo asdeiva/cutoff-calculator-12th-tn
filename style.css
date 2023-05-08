@@ -1,0 +1,64 @@
+/* Set default font family and color */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  transition: all 0.3s;
+}
+.form {
+  padding: 1.2rem;
+}
+
+/* Style form input and label elements */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 99%;
+  margin-bottom: 10px;
+}
+
+/* Style the Calculate and Reset buttons */
+input[type="button"] {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="button"]:hover {
+  background-color: #0062cc;
+}
+
+/* Style the output section */
+.output {
+  margin-top: 20px;
+}
+
+.output p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+h1 {
+  text-align: center;
+}
+.link {
+  text-align: center;
+
+
+}
+a{
+  text-decoration: none;
+}
+
+
