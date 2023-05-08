@@ -59,6 +59,10 @@ h1 {
 }
 a{
   text-decoration: none;
+  color: #333;
+}
+a:hover{
+  color: #0062cc;
 }
 .formula{
   padding: 2rem;
