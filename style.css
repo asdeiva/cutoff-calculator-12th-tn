@@ -60,5 +60,9 @@ h1 {
 a{
   text-decoration: none;
 }
+.formula{
+  padding: 2rem;
+  justify-content: center;
+}
 
 

@@ -5,6 +5,7 @@ let chemistry = document.querySelector("#chemistry");
 let physics = document.querySelector("#physics");
 let engCutoff = document.querySelector("#eng-cutoff");
 let medCutoff = document.querySelector("#med-cutoff");
+let agriCutoff = document.querySelector('#agri-cutoff');
 
 submitBtn.addEventListener("click", calculate);
 
@@ -24,8 +25,15 @@ function calculate() {
         parseFloat(cheMark) / 4 +
         parseFloat(phyMark) / 4;
 
+    let agriRes = 
+        parseFloat(bioMark) / 2 +
+        parseFloat(mathsMark) / 2 +
+        parseFloat(cheMark) / 2 +
+        parseFloat(phyMark) / 2;
+
       engCutoff.innerHTML = `Engineering Cut-off Mark : ${engRes}`;
       medCutoff.innerHTML = `Medical Cut-off Mark : ${medRes}`;
+      agriCutoff.innerHTML = `Agriculture Cut-off Mark : ${agriRes}`;
       console.log("submit clicked");
     } else {
       alert("Enter marks outoff 100");
